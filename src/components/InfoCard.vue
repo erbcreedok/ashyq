@@ -56,7 +56,7 @@
     </div>
     <label class="label"> Статус </label>
     <div class="status_block">СИНИЙ</div>
-    <label class="label"> Срок действия истечет через: </label>
+    <label class="label"> Срок действия истечет через:</label>
     <div class="time">
       <vue-countdown-timer
         :start-time="dates.startTime"
