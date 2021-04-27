@@ -6,7 +6,7 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    tickets: JSONParseSafely("tickets", {}),
+    tickets: JSONParseSafely(localStorage.getItem("tickets"), {}),
   },
   mutations: {
     SAVE_NEW_TICKET(state, { payload }) {

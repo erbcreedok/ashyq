@@ -29,6 +29,7 @@
 
 <script>
 import { QrcodeStream } from "vue-qrcode-reader";
+import uriToObject from "@/utils/uriToObject";
 export default {
   components: {
     QrcodeStream,
@@ -52,10 +53,10 @@ export default {
   },
   methods: {
     onResult(result) {
-      this.$store.commit({ type: "SAVE_NEW_TICKET", payload: result });
-      this.result = result;
-      const query = result.split("?")[1];
-      this.$router.push({ path: "/info?" + query });
+      const search = result.split("?")[1];
+      this.result = uriToObject(search);
+      this.$store.commit({ type: "SAVE_NEW_TICKET", payload: this.result });
+      this.$router.push({ path: "/info?" + search });
     },
   },
 };

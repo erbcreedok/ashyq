@@ -68,18 +68,32 @@ import InfoCard from "@/components/InfoCard";
 export default {
   components: { InfoCard, Header },
   mounted() {
-    this.$store.commit({ type: "SAVE_NEW_TICKET", payload: this.$route.query });
+    this.setData(this.$route);
   },
-  computed: {
-    data() {
-      const b = this.$route.query.b;
-      return this.$store.state.tickets[b + ""];
+  watch: {
+    $route(to) {
+      this.setData(to);
     },
+  },
+  data() {
+    return {
+      ls: localStorage,
+      data: null,
+    };
   },
   methods: {
     formatDate(date) {
       const time = new Date(date);
-      return `${time.getHours()}:${time.getMinutes()}`;
+      return `${this.formatNumber(time.getHours())}:${this.formatNumber(
+        time.getMinutes()
+      )}`;
+    },
+    formatNumber(num) {
+      return num < 10 ? "0" + num.toString().trim() : num;
+    },
+    setData(route) {
+      const b = route.query.b;
+      this.data = this.$store.state.tickets[b + ""];
     },
   },
 };

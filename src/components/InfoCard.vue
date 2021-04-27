@@ -43,7 +43,7 @@
 <template>
   <div class="info_card">
     <span class="blue"> ВХОД </span>
-    <label class="heading"> ИП Картоха </label>
+    <label class="heading"> <b>Проверка вашего статуса</b> </label>
     <div class="divider">
       <div class="divider-first">
         <label class="label">БИН/ИИН</label>
@@ -51,7 +51,7 @@
       </div>
       <div class="divider-second">
         <label class="label">Номер входа</label>
-        <span>{{ data.o }}</span>
+        <span>{{ data.p }}</span>
       </div>
     </div>
     <label class="label"> Статус </label>

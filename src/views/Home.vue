@@ -26,7 +26,7 @@
         Регистрация входа
         <img src="../assets/images/green.png" height="75px" alt="" />
       </HomeButton>
-      <HomeButton>
+      <HomeButton @click="goToInfo">
         Регистрация выхода
         <img src="../assets/images/red.png" height="75px" alt="" />
       </HomeButton>
@@ -42,6 +42,9 @@ export default {
   methods: {
     goToCamera() {
       this.$router.push("/qr");
+    },
+    goToInfo() {
+      this.$router.push("/info?b=000000000010");
     },
   },
 };

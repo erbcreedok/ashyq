@@ -39,7 +39,8 @@ body {
   overflow: auto;
 }
 .container {
-  width: 330px;
+  width: 100%;
+  max-width: 330px;
   margin-left: auto;
   margin-right: auto;
 }
