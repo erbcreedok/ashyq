@@ -44,7 +44,7 @@ export default {
       this.$router.push("/qr");
     },
     goToInfo() {
-      this.$router.push("/info?b=000000000010");
+      this.$router.push("/info?b=1");
     },
   },
 };
