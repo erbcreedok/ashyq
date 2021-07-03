@@ -45,7 +45,7 @@
         </div>
         <div class="field">
           <label>ИИН</label>
-          <span>992612300510</span>
+          <span>991226300510</span>
         </div>
       </div>
     </Header>
