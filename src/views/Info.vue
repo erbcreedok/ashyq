@@ -37,7 +37,7 @@
       <div class="container" style="margin-top: 20px">
         <div class="field">
           <label>ФИО</label>
-          <span>Дусеков Алинур</span>
+          <span>Карашов Дауржан</span>
         </div>
         <div class="field">
           <label>Номер телефона</label>
@@ -45,7 +45,7 @@
         </div>
         <div class="field">
           <label>ИИН</label>
-          <span>991226300510</span>
+          <span>991219300510</span>
         </div>
       </div>
     </Header>
