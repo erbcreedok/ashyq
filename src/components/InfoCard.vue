@@ -27,8 +27,8 @@
     }
   }
   .status_block {
-    background: #a7dcfe;
-    color: #4a8bda;
+    background: rgb(163, 238, 173);
+    color:  rgb(15, 122, 50);
     border-radius: 10px;
     height: 70px;
     display: flex;
@@ -55,7 +55,7 @@
       </div>
     </div>
     <label class="label"> Статус </label>
-    <div class="status_block">СИНИЙ</div>
+    <div class="status_block">ЗЕЛЕНЫЙ</div>
     <label class="label"> Срок действия истечет через:</label>
     <div class="time">
       <vue-countdown-timer
