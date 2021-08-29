@@ -37,15 +37,15 @@
       <div class="container" style="margin-top: 20px">
         <div class="field">
           <label>ФИО</label>
-          <span>Сыздык Ербол Нуржанулы</span>
+          <span>Әшімханов Ілияс Қайдарұлы</span>
         </div>
         <div class="field">
           <label>Номер телефона</label>
-          <span>+77021113438</span>
+          <span>+77754634855</span>
         </div>
         <div class="field">
           <label>ИИН</label>
-          <span>961105351374</span>
+          <span>961114350147</span>
         </div>
       </div>
     </Header>
