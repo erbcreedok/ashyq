@@ -37,15 +37,15 @@
       <div class="container" style="margin-top: 20px">
         <div class="field">
           <label>ФИО</label>
-          <span>Әшімханов Ілияс Қайдарұлы</span>
+          <span>Болатова Айжан Ардаққызы</span>
         </div>
         <div class="field">
           <label>Номер телефона</label>
-          <span>+77754634855</span>
+          <span>+77012223685</span>
         </div>
         <div class="field">
           <label>ИИН</label>
-          <span>961114350147</span>
+          <span>921014400047</span>
         </div>
       </div>
     </Header>
