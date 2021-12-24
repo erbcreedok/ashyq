@@ -37,7 +37,7 @@
       <div class="container" style="margin-top: 20px">
         <div class="field">
           <label>ФИО</label>
-          <span>Болатова Айжан Ардаққызы</span>
+          <span>Сыздық Ербол Нұржанұлы</span>
         </div>
         <div class="field">
           <label>Номер телефона</label>
@@ -45,7 +45,7 @@
         </div>
         <div class="field">
           <label>ИИН</label>
-          <span>921014400047</span>
+          <span>961105351374</span>
         </div>
       </div>
     </Header>
